@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
+    <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discOwOd.js" /></a>
   </p>
   <br />
   <p>
@@ -18,7 +18,7 @@
 </div>
 
 ## About
-discord.js is a powerful [Node.js](https://nodejs.org) module that allows you to interact with the
+discOwOd.js is a powerful [Node.js](https://nodejs.org) module that allows you to interact with the
 [Discord API](https://discordapp.com/developers/docs/intro) very easily.
 
 - Object-oriented
@@ -30,12 +30,12 @@ discord.js is a powerful [Node.js](https://nodejs.org) module that allows you to
 **Node.js 8.0.0 or newer is required.**  
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
-Without voice support: `npm install discord.js`  
-With voice support ([node-opus](https://www.npmjs.com/package/node-opus)): `npm install discord.js node-opus`  
-With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install discord.js opusscript`
+Without voice support: `npm install discOwOd.js`  
+With voice support ([node-opus](https://www.npmjs.com/package/node-opus)): `npm install discOwOd.js node-opus`  
+With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install discOwOd.js opusscript`
 
 ### Audio engines
-The preferred audio engine is node-opus, as it performs significantly better than opusscript. When both are available, discord.js will automatically choose node-opus.
+The preferred audio engine is node-opus, as it performs significantly better than opusscript. When both are available, discOwOd.js will automatically choose node-opus.
 Using opusscript is only recommended for development environments where node-opus is tough to get working.
 For production bots, using node-opus should be considered a necessity, especially if they're going to be running on multiple servers.
 
@@ -50,7 +50,7 @@ For production bots, using node-opus should be considered a necessity, especiall
 
 ## Example usage
 ```js
-const Discord = require('discord.js');
+const Discord = require('discOwOd.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -70,7 +70,7 @@ client.login('token');
 * [Website](https://discord.js.org/) ([source](https://github.com/discordjs/website))
 * [Documentation](https://discord.js.org/#/docs)
 * [Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide))
-* [Discord.js Discord server](https://discord.gg/bRCvFy9)
+* [DiscOwOd.js Discord server](https://discord.gg/bRCvFy9)
 * [Discord API Discord server](https://discord.gg/discord-api)
 * [GitHub](https://github.com/discordjs/discord.js)
 * [NPM](https://www.npmjs.com/package/discord.js)
@@ -82,7 +82,7 @@ client.login('token');
 ## Contributing
 Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check the
 [documentation](https://discord.js.org/#/docs).  
-See [the contribution guide](https://github.com/discordjs/discord.js/blob/master/.github/CONTRIBUTING.md) if you'd like to submit a PR.
+See [the contribution guide](https://github.com/KingDGrizzle/discOwOd.js/blob/master/.github/CONTRIBUTING.md) if you'd like to submit a PR.
 
 ## Help
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle
