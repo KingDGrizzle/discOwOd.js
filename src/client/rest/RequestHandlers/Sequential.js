@@ -65,6 +65,11 @@ class SequentialRequestHandler extends RequestHandler {
         }
         if (err) {
           if (err.status === 429) {
+            this.client.emit('debug', `429 received on ${item.request.method}:${item.request.path}!!
+    Limit: ${this.requestLimit}
+    Reset: ${this.requestResetTime}
+    Global: ${res.headers['x-ratelimit-global']}
+    Retry after: ${Number(res.headers['retry-after'])}`);
             this.queue.unshift(item);
             this.client.setTimeout(() => {
               this.globalLimit = false;
